@@ -1,0 +1,129 @@
+/* for desktop: */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+.nav-logo{
+    float: left;    
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.nav-heading{
+    text-align: center  ;
+    float: left;
+}
+
+.nav-heading h1{
+   font-size: 30px;
+   
+    
+}
+
+.nav-menu{
+   flex-direction: row;
+    justify-content: right;
+    
+      
+}
+
+.nav-menu a{
+    text-transform: capitalize;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+} 
+
+.nav-menu a:hover{
+   background-color:transparent;
+   
+    
+}
+
+/* profile section starts */
+
+.top-education{
+    position: relative;
+    text-align: right;
+    right: 70px;
+
+    
+}
+.top-education img{
+   transition: .4s;
+
+}
+
+.desc-profile{
+   font-size: 3rem;
+   top: 0px;
+
+}
+
+
+.desc-profile p{
+    font-size: 60px;
+
+  
+}
+
+.desc-profile h2 #number{ 
+    font-size: 5rem;
+    color: red;
+    background-color: rgb(159, 212, 14);
+    border-radius: 25px;
+}
+
+
+.desc-profile h2 #stop{ 
+    font-size: 5rem;
+    color: red;
+    background-color: rgb(159, 212, 14);
+    border-radius: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.bottom-education{
+    position: relative;
+    text-align: left;
+    left: 70px;
+    bottom: 80px;
+    
+
+}
+
+/* profile section ends */
+
+/* card section start */
+.card{
+    width: 420px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color:papayawhip;
+    float: left;
+}
+
+
+.card::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* card section ends */
+
+

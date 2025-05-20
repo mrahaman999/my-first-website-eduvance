@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+
+    font-family: "Noto Sans Bengali", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: width 100;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+/* header starts */
+img{
+    width: 60px;
+    height: 70px;
+    text-align: center;
+
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+/* for desktop */
+[class*="col-2"]{
+    float: left;
+    padding: 10px;
+}
+
+
+/* for mobile */
+[class*="col-2"]{
+    width: 100%;
+}
+
+.navbar{
+    background-color: navy;
+    padding: 1% 7%;
+    
+    text-align: center;
+}
+
+.nav-logo{
+   
+    text-align: center;
+
+}
+
+.nav-heading{
+    
+    text-align: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+
+}
+
+.nav-menu a{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(231, 125, 53);
+    border-radius: 10px;
+
+}
+
+.nav-logo a img:hover{
+    cursor: pointer;
+
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* header ends */
+
+/* main starts */
+/* profie section starts */
+.profile{
+    
+    text-align: center;
+    position: relative;
+
+    
+}
+.top-education{
+    position: relative;
+    text-align: right;
+    right: 30px;
+    top: 30px;
+    
+}
+.top-education img{
+   transition: .4s;
+    
+}
+
+.top-education img:hover{
+    transform: scale(1.5)
+    
+}
+
+.desc-profile{
+    padding: 0;
+    margin: 0;
+}
+.desc-profile h2 #number{ 
+    font-size: 60px;
+    color: red;
+    background-color: rgb(159, 212, 14);
+    border-radius: 25px;
+}
+
+.desc-profile h2 .stop{ 
+    font-size: 40px;
+    color: red;
+}
+.desc-profile h2 #stop{ 
+    font-size: 60px;
+    color: red;
+    background-color: rgb(159, 212, 14);
+    border-radius: 25px;
+    padding-top: 13px;
+}
+.desc-profile p{
+    font-size: 35px;
+
+  
+}
+
+.desc-profile p .sc1{
+    color: red;
+    
+}
+
+.desc-profile p .sc2{
+    color: green;
+    
+}
+
+.desc-profile p .sc3{
+    color: blue;
+    
+}
+    
+ .bottom-education{
+    position: relative;
+    text-align: left;
+    left: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.bottom-education img{
+   transition: .4s;
+    
+}
+
+.bottom-education img:hover{
+    transform: scale(1.5)
+    
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+    
+/* profie section ends */
+
+
+/* card section starts */
+
+
+
+.card{
+    width: 418px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color:papayawhip;
+    margin: 10px 10px;
+ 
+}
+.card-logo{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-logo img{
+    width: 70px;
+    height: 70px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.card-title{
+    background-color:darkseagreen;
+    border-radius: 10px;
+    color: white;
+    margin: 2px 60px;
+    text-align: center;
+    
+}
+
+.card-sub-title{
+    color:lightsalmon;
+    margin: 2px 60px;
+    text-align: center;
+    
+}
+.card-desc .notice{
+    list-style-type: circle;
+    list-style-position:inside;
+    list-style-image: url(images/new-sign.png);
+    color: black;
+}
+.card-desc ul li a{
+    
+    color: black;
+}
+.card-desc ul li a:hover{
+   text-decoration: underline;
+}
+
+.card:hover{
+    box-shadow: 0 4px 5px 5px blue;
+    
+}
+
+.card::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* card section ends */
+
+/* main ends */
